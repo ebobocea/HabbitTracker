@@ -37,7 +37,7 @@ today = datetime.now()
 pixel_update_endpoint = f"{graph_endpoint}/{graph_configuration['id']}/{today.strftime('%Y%m%d')}"
 
 pixel_configuration = {
-    "quantity": "6"
+    "quantity": "1"
 }
 
 response = requests.put(url=pixel_update_endpoint, headers=headers, json=pixel_configuration)
