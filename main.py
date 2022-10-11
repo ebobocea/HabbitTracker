@@ -2,9 +2,10 @@ import os
 import requests
 from datetime import datetime
 
+print("working")
 USERNAME = os.environ['username']
 
-TOKEN = os.environ['token']
+TOKEN =  os.environ['token']
 
 pixela_endpoint = "https://pixe.la/v1/users"
 
